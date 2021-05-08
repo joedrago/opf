@@ -1,0 +1,17 @@
+{
+  "name": "opf",
+  "version": "0.0.1",
+  "description": "OBI Patch Format",
+  "bin": {
+    "opf": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "main": "dist/index.js",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "minimist": "^1.2.5",
+    "xml-formatter": "^2.4.0"
+  }
+}
